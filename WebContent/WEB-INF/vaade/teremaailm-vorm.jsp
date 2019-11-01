@@ -5,7 +5,7 @@
 </head>
 
 <body>
-	<form action="tootleVormi" method="GET">
+	<form action="tootleVormiVersioonKaks" method="GET">
 		<input type="text" name="opilaseNimi" placeholder="Mis su nimi on?" />
 		<input type="submit" />
 	</form>	

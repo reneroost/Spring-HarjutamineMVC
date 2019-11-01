@@ -6,9 +6,13 @@
 <body>
 Tere Springi maailm!
 
-<br></br>
+<br><br>
 
 Õpilase nimi: ${param.opilaseNimi}
+
+<br><br>
+
+Sõnum: ${sonum}
 
 </body>
 
