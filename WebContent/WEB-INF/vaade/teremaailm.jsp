@@ -8,7 +8,7 @@ Tere Springi maailm!
 
 <br><br>
 
-Õpilase nimi: ${param.opilaseNimi}
+Töötaja nimi: ${param.tootajaNimi}
 
 <br><br>
 

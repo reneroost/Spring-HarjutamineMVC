@@ -7,7 +7,7 @@
  <p>Siin on testparagraaf<p>
  
  <hr>
- <a href="naitaVormi">Tere Maailm vorm</a>
+ <a href="tere/naitaVormi">Ava nimesisestus-vorm</a>
  </body>
  
  </html>
