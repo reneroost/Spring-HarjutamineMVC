@@ -6,5 +6,7 @@
 
 <body>
 Töötaja on kinnitatud: ${tootaja.eesNimi} ${tootaja.pereNimi}
+<br><br>
+Riigikood: ${tootaja.riik}
 </body>
 </html>

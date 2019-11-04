@@ -14,6 +14,10 @@
 	<br><br>
 	Perenimi: <form:input path="pereNimi" />
 	<br><br>
+	Riik: <form:select path="riik">
+		<form:options items="${tootaja.riigiValikud}" />
+	</form:select>
+	<br><br>
 	
 	<input type="submit" value="Submit" />
 	</form:form>
