@@ -4,10 +4,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class TobeKontroller {
+@RequestMapping("/tere")
+public class LihtneKontroller {
 
-	@RequestMapping("/naitaVormi")
+	@RequestMapping("/naitaVormiLihtne")
 	public String kuvaVormi() {
-		return "tobe";
+		return "nimesisestus-vorm";
 	}
 }

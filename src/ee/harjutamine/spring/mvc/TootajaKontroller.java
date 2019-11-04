@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/tootaja")
 public class TootajaKontroller {
 
-	@RequestMapping("/naitaVormi")
+	@RequestMapping("/naitaVormiTootaja")
 	public String naitaVormi(Model mudel) {
 		
 		Tootaja tootaja = new Tootaja();
@@ -19,7 +19,7 @@ public class TootajaKontroller {
 		return "tootaja-vorm";
 	}
 	
-	@RequestMapping("/tootleVormi")
+	@RequestMapping("/tootleVormiTootaja")
 	public String tootleVormi(@ModelAttribute("tootaja") Tootaja tootaja) {
 		
 		System.out.println("tootaja: " + tootaja.getEesNimi() +

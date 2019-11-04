@@ -9,10 +9,10 @@
 </head>
 
 <body>
-	<form:form action="tootleVormi" modelAttribute="tootaja">
+	<form:form action="tootleVormiTootaja" modelAttribute="tootaja">
 	Eesnimi: <form:input path="eesNimi" />
 	<br><br>
-	Perenimi: <form:input path="pereNimi" />
+	Perekonnanimi: <form:input path="pereNimi" />
 	
 	<br><br>
 	Riik: <form:select path="riik">

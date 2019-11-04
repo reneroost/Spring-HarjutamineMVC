@@ -7,9 +7,11 @@
  <p>Siin on testparagraaf<p>
  <hr>
  
- <a href="tere/naitaVormi">Ava nimesisestus-vorm</a>
+ <a href="tere/naitaVormiLihtne">Nimesisestuse vorm</a>
  <br><br>
- <a href="tootaja/naitaVormi">Töötaja vorm</a>
+ <a href="tootaja/naitaVormiTootaja">Töötaja vorm</a>
+ <br><br>
+ <a href="klient/naitaVormiKlient">Kliendi vorm</a>
  </body>
  
  </html>
