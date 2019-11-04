@@ -8,6 +8,7 @@ public class Tootaja {
 	private String pereNimi;
 	private String riik;
 	private String lemmikKeel;
+	private String opSusteemid;
 	
 	private LinkedHashMap<String, String> riigiValikud;
 	
@@ -55,5 +56,13 @@ public class Tootaja {
 	
 	public void setLemmikKeel(String keel) {
 		this.lemmikKeel = keel;
+	}
+
+	public String getOpSusteemid() {
+		return opSusteemid;
+	}
+
+	public void setOpSusteemid(String opSusteem) {
+		this.opSusteemid = opSusteem;
 	}
 }
