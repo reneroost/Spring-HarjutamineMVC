@@ -7,6 +7,7 @@ public class Tootaja {
 	private String eesNimi;
 	private String pereNimi;
 	private String riik;
+	private String lemmikKeel;
 	
 	private LinkedHashMap<String, String> riigiValikud;
 	
@@ -46,5 +47,13 @@ public class Tootaja {
 	
 	public LinkedHashMap<String, String> getRiigiValikud() {
 		return riigiValikud;
+	}
+	
+	public String getLemmikKeel() {
+		return lemmikKeel;
+	}
+	
+	public void setLemmikKeel(String keel) {
+		this.lemmikKeel = keel;
 	}
 }

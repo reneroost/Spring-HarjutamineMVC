@@ -18,7 +18,13 @@
 		<form:options items="${tootaja.riigiValikud}" />
 	</form:select>
 	<br><br>
-	
+	Lemmik keel: 
+	Java <form:radiobutton path="lemmikKeel" value="Java" />
+	C/C++ <form:radiobutton path="lemmikKeel" value="C/C++" />
+	TypeScript <form:radiobutton path="lemmikKeel" value="TypeScript" />
+	Python <form:radiobutton path="lemmikKeel" value="Python" />
+	Kotlin <form:radiobutton path="lemmikKeel" value="Kotlin" />
+	<br><br>
 	<input type="submit" value="Submit" />
 	</form:form>
 </body>
