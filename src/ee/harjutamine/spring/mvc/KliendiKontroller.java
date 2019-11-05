@@ -33,7 +33,9 @@ public class KliendiKontroller {
 			@Valid @ModelAttribute("klient") Klient klient,
 			BindingResult tulemuseSidumine) {
 		
-		System.out.println("Perekonnanimi: |" + klient.getPereNimi() + "|");
+		// System.out.println("Perekonnanimi: |" + klient.getPereNimi() + "|");
+		
+		System.out.println("Siduv vastus: " + tulemuseSidumine + "\n\n");
 		if(tulemuseSidumine.hasErrors()) {
 			return "klient-vorm";
 		} else {

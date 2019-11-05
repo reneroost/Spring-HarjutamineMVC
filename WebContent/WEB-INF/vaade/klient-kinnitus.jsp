@@ -7,6 +7,6 @@
 </head>
 
 <body>
-Klient on kinnitatud: ${klient.eesNimi} ${klient.pereNimi}
+Klient on kinnitatud: ${klient.eesNimi} ${klient.pereNimi}, ${klient.vanus}-aastane, postiindeks: ${klient.postiIndeks}].
 </body>
 </html>
