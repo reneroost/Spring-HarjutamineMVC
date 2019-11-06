@@ -6,6 +6,8 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Pattern;
 import javax.validation.constraints.Size;
 
+import ee.harjutamine.spring.mvc.valideerimine.EsinduseKood;
+
 public class Klient {
 
 	private String eesNimi;
@@ -14,13 +16,15 @@ public class Klient {
 	@Size(min=3, message="peab olema vähemalt 3 tähemärki")
 	private String pereNimi;
 	
-	@NotNull(message="On kohustuslik")
 	@Min(value=18, message="vanus peab olema vahemikus 18-70")
 	@Max(value=70, message="vanus peab olema vahemikus 18-70")
 	private Integer vanus;
 	
 	@Pattern(regexp="^[a-zA-Z0-9]{5}", message="Täpselt 5 tähte või numbrit")
 	private String postiIndeks;
+	
+	@EsinduseKood
+	private String esinduseKood;
 	
 	public String getEesNimi() {
 		return eesNimi;
@@ -45,6 +49,12 @@ public class Klient {
 	}
 	public void setPostiIndeks(String postiIndeks) {
 		this.postiIndeks = postiIndeks;
+	}
+	public String getEsinduseKood() {
+		return esinduseKood;
+	}
+	public void setEsinduseKood(String esinduseKood) {
+		this.esinduseKood = esinduseKood;
 	}
 	
 	

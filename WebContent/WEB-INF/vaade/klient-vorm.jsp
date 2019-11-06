@@ -19,11 +19,14 @@ Täida vorm. Tärniga (*) väljad on kohustuslikud.
 		 Perekonnanimi (*): <form:input path="pereNimi" cssClass="error" />
 		 <form:errors path="pereNimi" cssClass="error" />
 		 <br><br>
-		 Vanus (*): <form:input path="vanus" cssClass="error" />
+		 Vanus: <form:input path="vanus" cssClass="error" />
 		 <form:errors path="vanus" cssClass="error" />
 		 <br><br>
-		 Postiindeks (*): <form:input path="postiIndeks" cssClass="error" />
+		 Postiindeks: <form:input path="postiIndeks" cssClass="error" />
 		 <form:errors path="postiIndeks" cssClass="error" />
+		 <br><br>
+		 Esindusekood: <form:input path="esinduseKood" />
+		 <form:errors path="esinduseKood" cssClass="error" />
 		 <br><br>
 		 <input type="submit" value="Submit" />
 	</form:form>
